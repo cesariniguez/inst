@@ -4,11 +4,11 @@ Disable-InternetExplorerESC
 Enable-RemoteDesktop
 Enable-MicrosoftUpdate
 
-cinst google-chrome-x64
-cinst sysinternals
-cinst putty
-cinst 7zip
-cinst filezilla
+cinst google-chrome-x64 -y
+cinst sysinternals -y
+cinst putty -y
+cinst 7zip -y
+cinst filezilla -y
 
 Install-WindowsUpdate --acceptEula
 
