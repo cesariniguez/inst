@@ -1,0 +1,14 @@
+Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions
+
+Disable-InternetExplorerESC
+Enable-RemoteDesktop
+Enable-MicrosoftUpdate
+
+cinst GoogleChrome
+cinst sysinternals
+cinst putty
+choco install 7zip -y
+choco install filezilla -y
+
+Install-WindowsUpdate --acceptEula
+
