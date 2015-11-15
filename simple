@@ -4,7 +4,7 @@ Disable-InternetExplorerESC
 Enable-RemoteDesktop
 Enable-MicrosoftUpdate
 
-cinst GoogleChrome
+cinst google-chrome-x64
 cinst sysinternals
 cinst putty
 choco install 7zip -y
