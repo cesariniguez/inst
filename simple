@@ -7,8 +7,8 @@ Enable-MicrosoftUpdate
 cinst google-chrome-x64
 cinst sysinternals
 cinst putty
-choco install 7zip -y
-choco install filezilla -y
+cinst 7zip
+cinst filezilla
 
 Install-WindowsUpdate --acceptEula
 
